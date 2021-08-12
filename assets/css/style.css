@@ -4,6 +4,8 @@
     --primary-color: #fff;
     --secondy-color: #333;
     --third-color: #017143;
+    --fourth-color: #eb7495;
+    --fifth-color: #d752b1;
 }
 
 *{
@@ -61,7 +63,7 @@ nav ul li a {
 .content .textBox{
     position: relative;
     left: 45px;    
-    max-width: 600px;      
+    max-width: 600px;          
 }
 
 .content .textBox h2{
@@ -92,4 +94,76 @@ nav ul li a {
     letter-spacing: 1px;
     text-decoration: none;
     text-align: none;
+    box-shadow: 3px 5px 5px 0px rgba(0,0,0,0.49);
+    -webkit-box-shadow: 3px 5px 5px 0px rgba(0,0,0,0.49);
+    -moz-box-shadow: 3px 5px 5px 0px rgba(0,0,0,0.49);
+}
+
+.content .imgBox {
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 130px;
+    margin-top: 50px;
+}
+
+.content .imgBox img{
+    max-width: 340px;
+}
+
+.thumb{
+    position: absolute;
+    top: 100%;
+    left: 41%;   
+    transform: translateX(-50px);
+    display: flex;
+}
+
+.thumb li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    cursor: pointer; 
+    transition: 0.5s;   
+}
+
+.thumb li:hover{
+    transform: translateY(-15px);
+}
+
+.thumb li img{
+    max-width: 60px;
+
+}
+
+.sci{
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sci li{
+    list-style: none;
+}
+
+.sci li a {
+    display: inline-block;
+    margin: 5px 0;
+    transform: scale(0.6);
+    filter: invert(1);
+}
+
+.circle{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--third-color);
+    clip-path: circle(600px at right 800px);
 }
