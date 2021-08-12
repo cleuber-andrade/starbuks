@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
+:root{
+    --primary-color: #fff;
+    --secondy-color: #333;
+    --third-color: #017143;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -37,9 +43,53 @@ nav ul li{
 
 nav ul li a {
     display: inline-block;
-    color: #333;
+    color: var(--secondy-color);
     font-weight: 400;
     margin-left: 40px;
     text-decoration: none;
 }
 
+.content{
+    position: relative;
+    top: 180px;
+    width: 100%;    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+.content .textBox{
+    position: relative;
+    left: 45px;    
+    max-width: 600px;      
+}
+
+.content .textBox h2{
+    color: var(--secondy-color);
+    font-size: 4em;
+    line-height: 1.4em;
+    font-weight: 500;
+}
+
+.content .textBox h2 span{
+    color: var(--third-color);
+    font-size: 1.2em;
+    font-weight: 900;
+}
+
+.content .textBox p{
+    color: var(--secondy-color);
+}
+
+.content .textBox a{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background: var(--third-color);
+    color: var(--primary-color);
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-align: none;
+}
