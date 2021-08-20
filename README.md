@@ -24,7 +24,7 @@ Praticar conhecimentos sobre HTML5, CSS3 e JavaScript
 </div> <br> 
 
 
-## :pager: Tela principal da Site Moon Light
+## :pager: Tela principal da Site Starbuks
 
  <img src="https://github.com/cleuber-andrade/starbuks/blob/main/assets/img/starbuks.jpg" alt="Tela Principal">
 
