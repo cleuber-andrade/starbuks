@@ -1,5 +1,5 @@
 <h1 align="center"> 
-  ✔️Site Mulan✔️
+  ✔️Site Starbuks✔️
 </h1>
 
 ## 💻 Sobre o projeto
@@ -26,17 +26,17 @@ Praticar conhecimentos sobre HTML5, CSS3 e JavaScript
 
 ## :pager: Tela principal da Site Moon Light
 
- <img src="https://github.com/cleuber-andrade/clone_mulan/blob/main/assets/img/mulan.jpg" alt="Tela Principal">
+ <img src="https://github.com/cleuber-andrade/starbuks/blob/main/assets/img/starbuks.jpg" alt="Tela Principal">
 
 ## :globe_with_meridians: Link para acessar site no GitHubPages
 
-Para visualizar o site no GitHubPages <a href="https://cleuber-andrade.github.io/clone_mulan/" target="_blank">Clique aqui</a>
+Para visualizar o site no GitHubPages <a href="https://cleuber-andrade.github.io/starbuks/" target="_blank">Clique aqui</a>
 
 ## 👷 Como rodar
 
 ```bash
 # Clonar o repositório
-git clone https://github.com/cleuber-andrade/clone_mulan.git
+git clone https://github.com/cleuber-andrade/starbuks.git
 
 # Entrar numa IDE de sua preferência 
 
